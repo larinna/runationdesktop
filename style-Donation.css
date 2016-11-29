@@ -1,0 +1,341 @@
+html, body, h1,h2,h3,p,span {margin: 0px; padding: 0px;}
+
+html, body{width:100%; 
+	height:100%; 
+	font-size:1em; 
+	font-family: "AvenirLight",Helvetica ,Arial, sans-serif;}
+
+body{
+	width:100%; 
+	height:100%; 
+	max-width: 1400px; 
+}
+
+div#PageContainer{
+	width: 1400px;
+	height: 1020px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 15px 100px #c4c4c4;
+	background: #f4f4f4;
+}
+
+h3{
+	font-size: 0.9em;
+}
+
+header{
+	overflow: hidden;
+	height:100px;
+	background: #3e4357;
+	border-bottom: solid 10px #07bdff;
+}
+
+div#UserArea{
+	width: 250px;
+	height: 45px;
+	float: right;
+	margin: 12px 195px 0px 0px ;
+}
+
+img#headportraits{
+	width: 40px;
+	float: right;
+}
+
+p#WelcomeInformation{
+	float: right;
+	padding: 6px 5px ;
+	margin-top: 5px;
+	color: white;
+}
+
+nav#NavBar{
+	width: 100%;
+	height: 40%;
+	margin-top: 65px;
+	border:solid 1px red ;
+}
+
+a#Dashboard{
+	display: inline-block;
+	margin-left: 41%;
+	padding:10px 25px;
+	background: #07bdff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+}
+
+a#Project{
+	display: inline-block;
+	padding:10px 25px;
+	background: #07bdff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+}
+
+a#News{
+	display: inline-block;
+	padding:10px 25px;
+	background: #07bdff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+}
+
+div#donationArea{
+	width: 130px;
+	height: 40px;
+	float: right;
+	margin-right: 195px;
+}
+
+img#donationIcon{
+
+}
+
+a#Donation{
+	display: block;
+	text-decoration: none;
+	float: right;
+	color: white;
+	margin-top: 5px;
+}
+
+div#MainPart{
+	width: 1000px;
+	height: 650px;
+	margin:50px auto 0 auto;
+	overflow: hidden;
+}
+
+div#LeftPart{
+	width:600px;
+	height:600px;
+	float: left;
+	border: solid 1px red;
+}
+
+h2#leftTitle{
+	margin: 30px 0 0 0;
+}
+
+p#leftContent{
+	margin: 30px 50px 0 0;
+}
+
+a#KnowMore{
+	float: right;
+	text-decoration: none;
+	color: #ffc223;
+	font-size:0.75em;
+	margin-right: 55px;
+}
+
+div#ProjectShow{
+	width: 600px;
+	height: 350px;
+	margin-top: 50px;
+	position: relative;
+
+}
+
+div#ProjectMask{
+	overflow: hidden;
+	width: 600px;
+	height: 350px;
+}
+
+div.OneProject{
+	height: 100%;
+	width: 100%;
+	float: left;
+	background: white;
+}
+
+ul.slider{
+	list-style-type: none;
+	height: 350px;
+	width:auto;
+	padding: 0;
+}
+
+li.eachSlider{
+	float: left;
+	height: 350px;
+	width: 600px;
+}
+
+img.ProjectPicture{
+	display: block;
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+div.ProjectContent{
+	float: left;
+	width: 40%;
+	height: 100%;
+
+}
+
+h3.ProjectTitle{
+	display: block;
+	float: left;
+	text-align: center;
+	border: solid 1px red;
+	margin: 50px 20px 0 20px;
+	font-size: 1.2em;
+}
+
+p.ProjectPara{
+	display: block;
+	float: left;
+	border: solid 1px red;
+	margin: 20px 20px 0 20px;
+}
+
+div#ButtonArea{
+	height: 30px;
+	width: 150px;
+	border: solid 1px red;
+	margin: 5px auto;
+}
+
+img#leftButton{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+img#rightButton{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+div#RightPart{
+	float: left;
+	width:39.5%;
+	height:100%;
+}
+
+div#Form{
+	width: 80%;
+	height: 90%;
+	margin: 5% auto;
+	overflow: hidden;
+	background: white;
+	border-radius: 10px;
+}
+
+h2#rightPartTitle{
+	text-align: center;
+	margin-top: 15px;
+}
+
+span#OneTime{
+	display: block;
+	padding: 10px 25px;
+	width: 70px;
+	float: left;
+	margin: 20px 20px;
+	background: #ffc223;
+	color: white;
+}
+
+span#Monthly{
+	display: block;
+	padding: 10px 30px;
+	border: solid 1px #c9c9c9;
+	width: 60px;
+	float: left;
+	margin: 20px 10px;
+}
+
+h3#PersonalInformation{
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+
+form#formContainer{
+	width: 100%;
+	height: 70%;
+	border-top: solid 1px #c9c9c9;
+}
+
+label{
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 15px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+input.TextInput{
+	margin-top: 10px;
+	width: 180px;
+	height: 30px;
+}
+
+a#MakePayment{
+	display: block;
+	width: 130px;
+	padding: 10px 30px;
+	margin: 10px auto;
+	text-decoration: none;
+	background: #ffc223;
+	color: white;
+}
+
+input#SendEmail{
+	margin-top: 10px;
+}
+
+div#hr{
+	width: 100%;
+	height: 20px;
+	margin-top: 15px;
+	position: relative;
+}
+
+div#orContainer{
+	width: 20%;
+	height: 100%;
+	top: 0px;
+	left: 40%;
+	position: absolute;
+	background: white;
+}
+
+span#or{
+	display: block;
+	text-align: center;
+}
+
+a#PayPal{
+	display: block;
+	text-decoration: none;
+	padding: 10px 50px;
+	margin: 10px auto;
+	width: 60px;
+	background: #ffc223;
+	color: white;
+}
+
+@font-face{
+    font-family:AvenirLight;
+    src:url(AvenirLight.otf);
+}

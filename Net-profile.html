@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>main page</title>
+		<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="cssjs/style-profile.css">
+	</head>
+
+<body>
+	<script src="cssjs/jquery-2.2.3.js"></script>
+	<script src="cssjs/script-profile.js"></script>
+	<div id="PageContainer">
+		<div id="BackgroundGreyOut"></div>
+		<header id="header">
+			<img src="image/brand.png" id="brand">
+			<div id="UserArea">
+				<img src="image/headportraits (2).png" id="headportraits" >
+				<p id="WelcomeInformation">Welcome, Christine Zhang</p>
+			</div>
+			<nav id="NavBar">
+				<a href="Net-profile.html" id="Dashboard">
+					Dashboard
+				</a>
+				<a href="Net-Donation.html" id="Donation">
+					Donation
+				</a>	
+				<a href="Net-Projects.html" id="Project">
+					Info
+				</a>
+				<a href="Net-News.html" id="Project">
+					News
+				</a>
+			</nav>
+		</header>
+
+		<div id="SidePart">
+			<p id="LastSynchronized">Last synchronized: Just now</p>
+			<img src="image/sync01.png" alt="sync" id="sync">
+			<img src="image/sync02.png" alt="sync2" id="sync2">
+			<img src="image/sync03.png" alt="sync3" id="sync3">
+			<img src="image/facebook.png" alt="facebook" id="facebook">
+			<img src="image/addIcon01.png" alt="edit" id="edit">
+			<img src="image/addIcon02.png" alt="edit2" id="edit2">
+			<img src="image/addIcon03.png" alt="edit3" id="edit3">
+			<img src="image/exchange.png" alt="EndEdit" id="EndEdit">
+			<img src="image/exchange2.png" alt="EndEdit2" id="EndEdit2">
+			<img src="image/exchange3.png" alt="EndEdit3" id="EndEdit3">
+		</div>
+
+		<div id="MainPart">
+			<img src="image/largePhoto.png" id="largePhoto">
+			<div id="runate">
+				<h2 id="runateTitle">The UN Refugee Agency</h2>
+				<h3 id="newsTitle">Syria Clean Water Project</h3>
+				<p id="newsContent">The recent news shows the Syria Refugees are suffering serious waster shortage. We sincerely hope that you can run and donate your daily runs for the Project!</p>
+				<div>
+					<a href="" id="letsrunate">LET'S RUNATE</a>
+				</div>
+			</div>
+			<div id="Records">
+				<h3 id="records">Records</h3>
+				<p id="participants"><span class="number">32192</span><br>Participants</p>
+				<p id="times">You have run for<br><span class="number">5</span><br>times</p>
+			</div>
+		</div>
+
+		<div id="diagrams">
+			<div id="leftPart">
+				<div id="TodayRuns" class="CallDetailedDiagram" data-deactivate="false">
+					<span id="todayRunNum">4.68</span>
+					<span id="Km">Km</span>
+					<div class="greyOut"></div>
+					<img src="image/select02.png" class="active">
+					<img src="image/select01.png" class="deactivate">
+					<img src="image/runs.png" id="runsPicture">
+					<h3 id="todayRunsTitle">TODAY RUNS</h3>
+				</div>
+				<div id="RunateTimes" class="CallDetailedDiagram" data-deactivate="false">
+					<div class="greyOut"></div>
+					<img src="image/select02.png" class="active">
+					<img src="image/select01.png" class="deactivate">
+					<img src="image/runatetimes.png" id="runateTimePicture">
+					<p id="RunateTimeNumber" class="number">13</p>
+					<h3 id="RunateTimesTitle">RUNATE TIMES</h3>
+				</div>
+			</div>
+			<div id="MiddlePart" class="CallDetailedDiagram" data-deactivate="false">
+				<div class="greyOut"></div>
+				<img src="image/select02.png" class="active">
+				<img src="image/select01.png" class="deactivate">
+				<div id="DateSelection">
+					<img src="image/left.png" id="leftButton">
+					<span id="DiagramDate">12-18 April 2016</span>
+					<img src="image/right.png" id="rightButton">
+				</div>
+				<img src="image/zone.png" id="MiddlePartPicture">
+			</div>
+			<div id="RightPart">
+				<div id="TotalRuns" class="CallDetailedDiagram" data-deactivate="false">
+					<div class="greyOut"></div>
+					<img src="image/select02.png" class="active">
+					<img src="image/select01.png" class="deactivate">
+					<img src="image/totalruns.png" id="TotalRunsPicture">
+					<p id="TotalRunsNumber" class="number">42.31</p>
+					<h3 id="TotalRunTitle">TOTAL RUNS</h3>
+				</div>
+				<div id="Runations" class="CallDetailedDiagram" data-deactivate="false">
+					<div class="greyOut"></div>
+					<img src="image/select02.png" class="active">
+					<img src="image/select01.png" class="deactivate">
+					<img src="image/runations.png" id="RunationsPicture">
+					<p id="RunationsNumber" class="number">$19.0</p>
+					<h3 id="RunationsTitle">RUNATIONS</h3>
+				</div>	
+			</div>
+		</div>
+
+
+		<div id="candidateDiagram">
+			<div id="dailyRanking" data-deactivate="true">
+				<div class="greyOut"></div>
+				<img src="image/select02.png" class="active" alt="active">
+				<img src="image/select01.png" class="deactivate" alt="deactive">
+				<img src="image/rank.png" id="dailyRankingPicture">
+				<h3 id="dailyRankingTitle">DAILY RANKING</h3>
+			</div>
+			<div id="dailyRanking" data-deactivate="true">
+				<div class="greyOut"></div>
+				<img src="image/select02.png" class="active" alt="active">
+				<img src="image/select01.png" class="deactivate" alt="deactive">
+				<img src="image/rank.png" id="dailyRankingPicture">
+				<h3 id="dailyRankingTitle">WEEKLY RUNATION</h3>
+			</div>
+		</div>	
+
+		<div id="detailedDiagram">
+			<div id="detailedDateSelection">
+				<img src="image/left.png" id="detailedLeftButton">
+				<span id="detailedDiagramDate">12-18 April 2016</span>
+				<img src="image/right.png" id="detailedRightButton">
+			</div>
+			<img src="image/zone.png" id="detailedMiddlePartPicture">
+		</div>
+
+	</div>
+</body>
+
+</html>
